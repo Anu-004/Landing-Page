@@ -1,0 +1,345 @@
+*{
+    box-sizing: border-box;
+}
+
+/* LOGIN FORM*/
+.bdy{
+    background: linear-gradient(to right ,rgba(255, 192, 203, 0.797),rgba(27, 104, 248, 0.664),grey);
+}
+/* Aligns the form*/
+form{
+    display: inline-block;
+    text-align: center;
+}
+/* Login box */
+.login{
+    min-width:250px;
+    width: 50%;
+    background-color: aliceblue;
+    border: 0;
+    margin: 5em auto;  
+    box-shadow: 3px 3px 15px 15px rgba(18, 4, 125, 0.751);
+    text-align: center;
+    padding:50px;
+}
+.login h1,.para{
+    margin: 0;
+}
+.para{
+    padding: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.login *{
+    margin-bottom: 1em;
+}
+a{
+    text-decoration: none;
+}
+/* frgt pass */
+form p{
+    margin-left: 10em;
+    font-weight: bold;
+}
+/* input box */
+.logform input{
+    display:block;
+    width: 220px;
+    margin: 0 auto;  /*Displays box in center*/
+    text-align: center;  /* Displays placeholder*/
+    border: 1px solid rgb(72, 1, 119);
+    border-radius: 100px;
+    padding:6px;
+    transition: transform 9ms;
+}
+.logform input:focus,.logform input:hover{
+    transform: scale(1.1);
+    border: 2px solid rgb(6, 6, 79);
+}
+/* login button */
+.btn-log{
+    border-radius: 5px;
+    border:0;
+    width: 120px;
+    background: linear-gradient(to left,#e73da3c6,rgb(72, 182, 250));
+    color:white;
+    font-weight: 700;
+    padding:1em 20px;
+    text-transform: uppercase;
+    transition: transform 5ms;
+}
+.btnlink{
+    /* color: rgb(56, 8, 100); */
+    color: aliceblue;
+    padding: 1em 0;
+}
+.btnlink:hover{
+    opacity: 0.7;
+}
+.btn-log:hover{
+    transform:scale(1.1);
+}
+
+
+
+/*SIGNUP FORM*/
+.bdys{
+    background:url(img/pexels-joni-tuohimaa-1936935-16171185.jpg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+/* Signup Box */
+.Signup{
+    /* min-width: 250px; */
+    width: 70%;
+    margin: 4em auto;
+    text-align: center;
+    box-shadow: 3px 3px 10px 10px rgba(68, 182, 231, 0.838);
+    background-color: aliceblue;
+    padding: 30px 2px;
+}
+.Signup h1,.Signup h3{
+    margin:0;
+}
+.Signup *{
+    margin-bottom: 1em;
+}
+/* both side lines */
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    margin:0 auto;
+}
+.or::before, .or::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1.4px solid rgb(1, 3, 100);
+}
+/* icon */
+ .gg{ 
+    margin-right: 1.5em;
+ }
+/* signup input box*/
+ .signform input{
+    display:block;
+    width: 250px;
+    margin: 0 auto;  /*Displays box in center*/
+    text-align: center;  /* Displays placeholder*/
+    border: 1px solid rgb(72, 1, 119);
+    border-radius: 80px;
+    padding:6px;
+    transition: transform 9ms;
+}
+.signform input:focus,.signform input:hover{
+    transform: scale(1.1);
+    border: 2px solid rgb(6, 6, 79);
+}
+/* button */
+.btn-sign{
+    border-radius: 9px;
+    border:0;
+    background: linear-gradient(to right,rgba(0, 0, 255, 0.922),rgb(72, 182, 250));
+    color:white;
+    font-weight: 700;
+    padding: 1em 1.5em;
+    text-transform: uppercase;
+    transition: transform 5ms;
+}
+/* login btn */
+.btnlink{
+    /* color: rgb(56, 8, 100); */
+    color: aliceblue;
+}
+.btn-sign:hover{
+    transform:scale(1.1);
+}
+
+
+/* Landing Page */
+/* header */
+.indx{
+    background:linear-gradient(to left,rgba(179, 105, 179, 0.349),rgba(79, 138, 158, 0.386),rgba(104, 224, 176, 0.331));
+}
+nav{
+    display: flex;
+    margin-left: -5em;
+    gap:48px;
+    justify-content:end;
+    align-items: center;
+    font-size: 1.3rem; 
+}
+nav a{
+    /* margin-right: 2em; */
+    color: black;
+
+}
+nav a:hover{opacity: 0.6; text-decoration:underline; color:rgb(4, 51, 46)}
+.logo{
+    margin-left: -1em;
+    z-index: 1;
+    color:rgb(24, 21, 20);
+    font-weight: bold;
+    font-size: 1.7rem;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 2px 2px 5px rgba(1, 35, 56, 0.763);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 20em;
+}
+header{
+    background-color: white;
+    box-shadow: 10px 8px 10px rgb(6, 91, 114);
+    color: black;
+    display: flex;
+    /* justify-content:center; */
+    top:0;
+    align-items: center;
+    position:sticky;
+    z-index: 2;
+}
+/* Logo img */
+header img{
+    /* margin: 0; */
+    z-index: 1;
+}
+/* BODY */
+.container{
+    margin:2em 2em;
+    z-index: 1;
+}
+h2,h1,h3,h4,h5,h6{
+    margin: 0;
+}
+/* STORY */
+.story{
+    display: flex;
+}
+.story p{
+    font-size: 1.7rem;
+    margin-right: 1em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+   /* justify-content: center; */
+}
+.story img{
+    width:300px;
+    height: 300px; 
+    border-radius: 25px;
+}
+/* SERVICE */
+.service{
+    display: flex;
+}
+.service p{
+    font-size: 1.7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+.service img{
+    width:350px;
+    height: 250px;
+    margin-right: 2em;
+    border-radius: 25px;
+}
+.points{
+    font-size: 18px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+/* REVIEW */
+#review,#service{
+margin-top: 2.5em;
+}
+.review{
+    display: grid;
+    grid-template: 
+    "body1 body2 body3 body4 body5 body6";
+    grid-gap: 35px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-color: black;
+}
+
+
+/* review (parent) access all children & specifies size of each */
+.review > div {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 20px;
+}
+/* Displays img in the grid */
+.r1 { grid-area: body1; background-image: url('img/fd1.jpg'); }
+.r2 { grid-area: body2; background-image: url('img/fd2.jpg'); }
+.r3 { grid-area: body3; background-image: url('img/fd3.jpg'); }
+.r4 { grid-area: body4; background-image: url('img/fd4.jpg'); }
+.r5 { grid-area: body5; background-image: url('img/fd5.jpg'); }
+.r6 { grid-area: body6; background-image: url('img/fd6.jpg'); }
+
+/* Displays the background content */
+.review > div::after {
+    content: "";
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.521);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+/* Displays txt oly whn hovers */
+.r1:hover::after { content: "The best dining experience I've ever had! The flavors were incredible and the service was top-notch. - Sarah L."; 
+    opacity: 1; }
+.r2:hover::after { content: "AURORA is my go-to place for special occasions. The ambiance is perfect and the food never disappoints. - John M."; 
+    opacity: 1; }
+.r3:hover::after { content: "An extraordinary dining experience! The flavors were so well-balanced, and the presentation was beautiful. AURORA truly knows how to impress. - Emma R.";
+     opacity: 1; }
+.r4:hover::after { content: "I had the pleasure of dining at AURORA last night, and it was simply amazing. The staff were friendly and attentive, and the food was out of this world. - Michael T."; 
+    opacity: 1; }
+.r5:hover::after { content: "From start to finish, my experience at AURORA was exceptional. The flavors, the service, the ambiance - everything was perfect. Can't wait to come back! - Sophia W."; 
+    opacity: 1;
+ }
+.r6:hover::after { content: "AURORA never fails to amaze me. Every dish is a work of art, and the ingredients are always so fresh. I highly recommend the Seared Scallops with Lemon Butter! - Olivia P."; 
+    opacity: 1; }
+
+/* CONTACT */
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 20px;
+}
+.span{
+    font-size:2rem;
+    color: rgb(81, 172, 252);
+}
+.contact{
+    display: flex;
+    justify-content:space-around;
+}
+.contact p{
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 8ms;
+}
+.contact p:hover{
+    transform:scale(1.1);
+    color:rgba(73, 190, 181, 0.918);
+    font-weight: bold;
+}
+.last{
+    text-align: center;
+    letter-spacing: 2px;
+}
